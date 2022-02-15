@@ -1,0 +1,31 @@
+Package: fdarank
+Type: Package
+Title: Rank dynamics for functional data
+URL: https://github.com/yqgchen/fdarank
+BugReports: https://github.com/yqgchen/fdarank/issues
+Version: 0.1.0
+Encoding: UTF-8
+Date: 2022-02-14
+Authors@R: 
+    c(person(given = "Yaqing",
+             family = "Chen",
+             email = "yaqchen@ucdavis.edu",
+             role = c("aut", "cre")),
+      person(given = "Hans-Georg",
+             family = "Müller",
+             role = c("cph", "ths", "aut")))
+Maintainer: Yaqing Chen <yaqchen@ucdavis.edu>
+Description: Provides implementation of "Rank dynamics for functional data".  
+    References: Chen, Y., Dawson, M., & Müller, H.-G. (2020) <doi:110.1016/j.csda.2020.106963>.
+License: MIT + file LICENSE
+LazyData: false
+Imports:
+    dplyr,
+    doParallel,
+    foreach,
+    pracma,
+    parallel,
+    stats
+Suggests: 
+    testthat
+RoxygenNote: 7.1.0
